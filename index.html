@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Grammatica Portugees B1+</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Merriweather:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f8fafc; color: #0f172a; }
+        h1, h2, h3 { font-family: 'Merriweather', serif; }
+        .sticky-nav { position: sticky; top: 0; z-index: 100; background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(8px); border-bottom: 1px solid #e2e8f0; }
+        .verb-table th { @apply bg-slate-800 text-white p-2 text-xs uppercase tracking-wider; }
+        .verb-table td { @apply border-b border-slate-200 p-2 text-sm; }
+        .valstrik-box { @apply bg-red-50 border-l-4 border-red-500 p-4 my-4 rounded-r-lg; }
+        .nuance-box { @apply bg-blue-50 border-l-4 border-blue-500 p-4 my-4 rounded-r-lg; }
+        .onregelmatig { @apply text-red-600 font-bold; }
+        .highlight { @apply text-blue-600 font-semibold; }
+        section { @apply mb-20 scroll-mt-20; }
+    </style>
+</head>
+<body class="p-0 m-0">
+
+    <!-- Navigatie -->
+    <nav class="sticky-nav py-4 px-6">
+        <div class="max-w-7xl mx-auto flex flex-wrap gap-4 justify-between items-center">
+            <div class="font-bold text-xl text-slate-900">🇵🇹 CVO B1+ <span class="text-blue-600">Groeipunt</span></div>
+            <div class="flex flex-wrap gap-3 text-sm font-medium text-slate-600">
+                <a href="#pps" class="hover:text-blue-600">PPS</a>
+                <a href="#imperfeito" class="hover:text-blue-600">Imperfeito</a>
+                <a href="#compostos" class="hover:text-blue-600">Compostos</a>
+                <a href="#imperativo" class="hover:text-blue-600">Imperativo</a>
+                <a href="#infinitivos" class="hover:text-blue-600">Infinitivos</a>
+                <a href="#relativos" class="hover:text-blue-600">Relativos</a>
+                <a href="#mesmo-proprio" class="hover:text-blue-600">Mesmo/Próprio</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-slate-900 text-white py-16 px-6 text-center">
+        <h1 class="text-4xl md:text-5xl mb-4">Masterclass Portugese Grammatica</h1>
+        <p class="text-slate-400 max-w-2xl mx-auto italic">"O sucesso não acontece por acaso." Speciaal samengesteld voor de student aan het CVO Groeipunt.</p>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-6 py-12">
+
+        <!-- 1. PPS -->
+        <section id="pps">
+            <h2 class="text-3xl font-bold mb-6 flex items-center gap-2">
+                <span class="bg-slate-900 text-white px-3 py-1 rounded text-2xl">1</span> Pretérito Perfeito Simples (PPS)
+            </h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4 text-blue-800">Regelmatige Vervoegingen</h3>
+                    <div class="overflow-x-auto">
+                        <table class="w-full verb-table">
+                            <thead>
+                                <tr><th>Pessoa</th><th>-AR (Falar)</th><th>-ER (Comer)</th><th>-IR (Abrir)</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>Eu</td><td>fal<span class="highlight">ei</span></td><td>com<span class="highlight">i</span></td><td>abr<span class="highlight">i</span></td></tr>
+                                <tr><td>Tu</td><td>fal<span class="highlight">aste</span></td><td>com<span class="highlight">este</span></td><td>abr<span class="highlight">iste</span></td></tr>
+                                <tr><td>Ele/Ela/Você</td><td>fal<span class="highlight">ou</span></td><td>com<span class="highlight">eu</span></td><td>abr<span class="highlight">iu</span></td></tr>
+                                <tr><td>Nós</td><td>fal<span class="highlight">ámos</span>*</td><td>com<span class="highlight">emos</span></td><td>abr<span class="highlight">imos</span></td></tr>
+                                <tr><td>Eles/Elas/Vocês</td><td>fal<span class="highlight">aram</span></td><td>com<span class="highlight">eram</span></td><td>abr<span class="highlight">iram</span></td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="text-xs mt-2 text-slate-500">* In PT-PT wordt de -ámos gebruikt om onderscheid te maken met de tegenwoordige tijd (falamos).</p>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-4 text-red-800">De Onregelmatige "Stam-veranderaars"</h3>
+                    <p class="text-sm mb-4">Deze werkwoorden krijgen een nieuwe stam en hebben <strong>geen</strong> accenten in de 1e en 3e persoon enkelvoud.</p>
+                    <div class="bg-white shadow-sm border border-slate-200 rounded-lg p-4">
+                        <ul class="grid grid-cols-2 gap-x-4 text-sm">
+                            <li><strong>Ter:</strong> tive, tiveste, teve...</li>
+                            <li><strong>Estar:</strong> estive, estiveste, esteve...</li>
+                            <li><strong>Fazer:</strong> fiz, fizeste, fez, fizemos...</li>
+                            <li><strong>Dizer:</strong> disse, disseste, disse...</li>
+                            <li><strong>Poder:</strong> pude, pudeste, pôde...</li>
+                            <li><strong>Saber:</strong> soube, soubeste, soube...</li>
+                            <li><strong>Vir:</strong> vim, vieste, veio, viemos, vieram</li>
+                            <li><strong>Ver:</strong> vi, viste, viu, vimos, viram</li>
+                            <li><strong>Ser/Ir:</strong> fui, foste, foi, fomos, foram</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="valstrik-box">
+                <h4 class="font-bold">Valstrik: Ver versus Vir</h4>
+                <p class="text-sm">Vervar <strong>vimos</strong> (wij zagen) niet met <strong>viemos</strong> (wij kwamen). Ook <strong>viu</strong> (hij zag) vs <strong>veio</strong> (hij kwam) is een klassieke fout.</p>
+            </div>
+        </section>
+
+        <!-- 2. Pretérito Imperfeito -->
+        <section id="imperfeito">
+            <h2 class="text-3xl font-bold mb-6 flex items-center gap-2">
+                <span class="bg-blue-600 text-white px-3 py-1 rounded text-2xl">2</span> Pretérito Imperfeito do Indicativo
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Vervoeging</h3>
+                    <table class="w-full verb-table">
+                        <thead>
+                            <tr><th>Pessoa</th><th>-AR</th><th>-ER / -IR</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Eu</td><td>-ava</td><td>-ia</td></tr>
+                            <tr><td>Tu</td><td>-avas</td><td>-ias</td></tr>
+                            <tr><td>Ele/Ela/Você</td><td>-ava</td><td>-ia</td></tr>
+                            <tr><td>Nós</td><td>-ávamos</td><td>-íamos</td></tr>
+                            <tr><td>Eles/Vocês</td><td>-avam</td><td>-iam</td></tr>
+                        </tbody>
+                    </table>
+                    <div class="mt-4 p-4 bg-slate-100 rounded">
+                        <p class="text-xs font-bold uppercase">Slechts 4 onregelmatige werkwoorden:</p>
+                        <p class="text-sm">Ser (era), Ter (tinha), Vir (vinha), Pôr (punha).</p>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">De Nuances (Waarom B1+?)</h3>
+                    <div class="space-y-4">
+                        <div class="nuance-box">
+                            <strong>1. Beleefdheid (Gentileza):</strong> In plaats van "Eu quero" (Ik wil), gebruik je "Eu <span class="highlight">queria</span>" (Ik had graag gewild). Het is zachter dan de tegenwoordige tijd.
+                        </div>
+                        <div class="nuance-box">
+                            <strong>2. Valor de Condicional:</strong> In de spreektaal vervangt de Imperfeito bijna altijd de Condicional. <br>
+                            <em>Grammaticaal correct:</em> Se pudesse, <span class="italic text-slate-500">compraria</span>.<br>
+                            <em>Spreektaal:</em> Se pudesse, <span class="highlight">comprava</span>.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Compostos & Participio -->
+        <section id="compostos">
+            <h2 class="text-3xl font-bold mb-6 flex items-center gap-2">
+                <span class="bg-rose-600 text-white px-3 py-1 rounded text-2xl">3</span> Tempos Compostos & Particípio
+            </h2>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+                <div class="bg-white p-6 rounded-xl border border-slate-200">
+                    <h3 class="font-bold text-rose-800 mb-2">Particípio Passado</h3>
+                    <p class="text-sm mb-4">Regelmatig: -ado / -ido</p>
+                    <div class="text-xs space-y-1">
+                        <p class="font-bold text-red-600">Onregelmatig (Cruciaal!):</p>
+                        <ul class="list-disc ml-4">
+                            <li>Abrir -> <span class="onregelmatig">aberto</span></li>
+                            <li>Dizer -> <span class="onregelmatig">dito</span></li>
+                            <li>Fazer -> <span class="onregelmatig">feito</span></li>
+                            <li>Escrever -> <span class="onregelmatig">escrito</span></li>
+                            <li>Ver -> <span class="onregelmatig">visto</span></li>
+                            <li>Vir -> <span class="onregelmatig">vindo</span></li>
+                            <li>Pôr -> <span class="onregelmatig">posto</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-2 space-y-6">
+                    <div class="bg-white p-6 rounded-xl border border-slate-200">
+                        <h4 class="font-bold">Pretérito Perfeito Composto (Tenho + Particípio)</h4>
+                        <p class="text-sm text-slate-600 italic mb-2">"Tenho estudado muito."</p>
+                        <div class="valstrik-box border-rose-500 bg-rose-50 my-0">
+                            <strong>Grote Valstrik:</strong> Dit is NIET de voltooid tegenwoordige tijd van het Nederlands. In het Portugees drukt dit een <strong>voortdurende herhaling</strong> uit van het verleden tot NU.
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-xl border border-slate-200">
+                        <h4 class="font-bold">Pretérito Mais-que-Perfeito Composto (Tinha + Particípio)</h4>
+                        <p class="text-sm text-slate-600 italic mb-2">"Quando ele chegou, eu já <span class="highlight">tinha saído</span>."</p>
+                        <p class="text-sm">Wordt gebruikt voor een actie die voltooid was vór een andere actie in het verleden. (Ik was al vertrokken).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Imperativo -->
+        <section id="imperativo">
+            <h2 class="text-3xl font-bold mb-6 flex items-center gap-2">
+                <span class="bg-amber-500 text-white px-3 py-1 rounded text-2xl">4</span> Modo Imperativo
+            </h2>
+            <div class="overflow-x-auto">
+                <table class="w-full verb-table text-center">
+                    <thead>
+                        <tr><th>Pessoa</th><th>-AR (Calar)</th><th>-ER (Comer)</th><th>-IR (Subir)</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-amber-50"><td class="font-bold">Tu (Affirmativo)</td><td>Cal<span class="highlight">a</span></td><td>Com<span class="highlight">e</span></td><td>Sub<span class="highlight">e</span></td></tr>
+                        <tr><td class="font-bold text-blue-700">Você</td><td>Cal<span class="highlight">e</span></td><td>Com<span class="highlight">a</span></td><td>Sub<span class="highlight">a</span></td></tr>
+                        <tr><td class="font-bold">Nós</td><td>Cal<span class="highlight">emos</span></td><td>Com<span class="highlight">amos</span></td><td>Sub<span class="highlight">amos</span></td></tr>
+                        <tr><td class="font-bold text-blue-700">Vocês</td><td>Cal<span class="highlight">em</span></td><td>Com<span class="highlight">am</span></td><td>Sub<span class="highlight">am</span></td></tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6">
+                <div class="valstrik-box border-amber-500 bg-amber-50">
+                    <h4 class="font-bold">Valstrik: De Negatieve Vorm</h4>
+                    <p class="text-sm">Voor de "Não"-vorm gebruik je voor ALLE personen (ook 'Tu') de <span class="font-bold">Presente do Conjuntivo</span>.</p>
+                    <p class="text-xs mt-2 italic">Ex: Não cales (Tu), Não calem (Vocês).</p>
+                </div>
+                <div class="bg-slate-800 text-white p-4 rounded-lg">
+                    <h4 class="font-bold text-amber-400 mb-2">Onregelmatige Imperativo (Você):</h4>
+                    <ul class="text-xs space-y-1">
+                        <li>Ser: <span class="text-amber-300">Seja</span></li>
+                        <li>Estar: <span class="text-amber-300">Esteja</span></li>
+                        <li>Dar: <span class="text-amber-300">Dê</span></li>
+                        <li>Ir: <span class="text-amber-300">Vá</span></li>
+                        <li>Saber: <span class="text-amber-300">Saiba</span></li>
+                        <li>Dizer: <span class="text-amber-300">Diga</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Infinitivos -->
+        <section id="infinitivos">
+            <h2 class="text-3xl font-bold mb-6 flex items-center gap-2">
+                <span class="bg-emerald-600 text-white px-3 py-1 rounded text-2xl">5</span> Infinitivo Impessoal vs Pessoal
+            </h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="p-6 bg-white border border-slate-200 rounded-xl">
+                    <h3 class="font-bold text-emerald-800 border-b pb-2 mb-4">1. Infinitivo Impessoal</h3>
+                    <p class="text-sm mb-4">De onveranderlijke vorm. Geen specifiek onderwerp nodig.</p>
+                    <ul class="text-sm space-y-2">
+                        <li>✅ <strong>Na voorzetsels (zonder specifiek onderwerp):</strong> "É tempo de <span class="highlight">mudar</span>."</li>
+                        <li>✅ <strong>Algemene waarheden:</strong> "Viver é <span class="highlight">aprender</span>."</li>
+                        <li>✅ <strong>Met modale werkwoorden:</strong> "Eu quero <span class="highlight">comer</span>."</li>
+                    </ul>
+                </div>
+                <div class="p-6 bg-emerald-50 border-2 border-emerald-500 rounded-xl">
+                    <h3 class="font-bold text-emerald-800 border-b border-emerald-200 pb-2 mb-4">2. Infinitivo Pessoal (De Valstrik!)</h3>
+                    <p class="text-sm mb-4 font-bold italic text-emerald-700">Wanneer gebruik je deze?</p>
+                    <p class="text-sm mb-4 italic">Wanneer de actie een duidelijk, specifiek onderwerp heeft, vaak na voorzetsels (para, por, antes de, ao).</p>
+                    <table class="w-full text-xs font-mono mb-4">
+                        <tr><td>Eu</td><td>- (Cant<span class="highlight">ar</span>)</td></tr>
+                        <tr><td>Tu</td><td>- <span class="onregelmatig">es</span> (Cant<span class="highlight">ares</span>)</td></tr>
+                        <tr><td>Ele/Ela/Você</td><td>- (Cant<span class="highlight">ar</span>)</td></tr>
+                        <tr><td>Nós</td><td>- <span class="onregelmatig">mos</span> (Cant<span class="highlight">armos</span>)</td></tr>
+                        <tr><td>Eles/Vocês</td><td>- <span class="onregelmatig">em</span> (Cant<span class="highlight">arem</span>)</td></tr>
+                    </table>
+                    <p class="text-xs bg-white p-2 rounded">Ex: "Eu trouxe este livro para <strong>vós lerdes</strong> (of 'vocês lerem')."</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Relativos, Mesmo e Próprio -->
+        <section id="mesmo-proprio">
+            <h2 class="text-3xl font-bold mb-6 flex items-center gap-2">
+                <span class="bg-indigo-600 text-white px-3 py-1 rounded text-2xl">6</span> Relativos, Mesmo & Próprio
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 border border-slate-200 rounded-xl">
+                    <h4 class="font-bold text-indigo-800 mb-4 italic underline text-center">Invariáveis</h4>
+                    <ul class="space-y-4 text-sm">
+                        <li><strong>QUE:</strong> Allesomvattend. <br><span class="text-slate-500 italic">"O assunto que discutimos."</span></li>
+                        <li><strong>QUEM:</strong> Alleen mensen (altijd met voorzetsel). <br><span class="text-slate-500 italic">"A pessoa de quem falas."</span></li>
+                        <li><strong>ONDE:</strong> Plaatsen. <br><span class="text-slate-500 italic">"A cidade onde moro."</span></li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white p-6 border border-slate-200 rounded-xl">
+                    <h4 class="font-bold text-indigo-800 mb-4 italic underline text-center">Uso de MESMO</h4>
+                    <p class="text-xs text-slate-400 mb-4">(Variavel: mesmo/a/s)</p>
+                    <ol class="space-y-3 text-sm list-decimal ml-4">
+                        <li><strong>Identiteit:</strong> "É a mesma pessoa." (Dezelfde)</li>
+                        <li><strong>Benadrukking:</strong> "Eu mesmo consertei o portátil." (Ikzelf)</li>
+                        <li><strong>Bevestiging:</strong> "Vais mesmo?" (Ga je echt?)</li>
+                    </ol>
+                </div>
+
+                <div class="bg-white p-6 border border-slate-200 rounded-xl">
+                    <h4 class="font-bold text-indigo-800 mb-4 italic underline text-center">Uso de PRÓPRIO</h4>
+                    <p class="text-xs text-slate-400 mb-4">(Variavel: próprio/a/s)</p>
+                    <ol class="space-y-3 text-sm list-decimal ml-4">
+                        <li><strong>Eigendom:</strong> "Trabalhar por conta própria." (Voor eigen rekening)</li>
+                        <li><strong>Benadrukking (Formeler):</strong> "O próprio ministro assinou." (De minister zelf)</li>
+                        <li><strong>Karakteristiek:</strong> "É próprio dele." (Het is typisch voor hem)</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-900 text-slate-500 py-12 px-6 text-center border-t border-slate-800">
+        <p class="text-sm">&copy; 2026 - Master Grammatica Dashboard B1+</p>
+        <p class="text-xs mt-2 uppercase tracking-widest">Casa Da Andorinha &bull; Portela do Fojo</p>
+    </footer>
+
+</body>
+</html>
